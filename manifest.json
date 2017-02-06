@@ -1,5 +1,5 @@
 {
-    "name": "PutImage",
+    "name": "LayerByLayer",
     "version": "0.0.1",
     "manifest_version": 2,
     "description": "画像のlayerを追加する",
