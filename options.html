@@ -1,0 +1,22 @@
+<!Doctime html>
+<html lang="js">
+  <head>
+    <meta charset="urf-8">
+  </head>
+  <body>
+    <p>Hello world</p>
+    <input class="js-image-input" type="file">
+    <input id="js-check-input" class="js-check-input" type="checkbox">
+    <label for="js-check-input">enable</label>
+    <script src="./options.js" />
+    <script>
+      var image = doc.querySelector(".js-image-input");
+      var checkbox = doc.querySelector(".js-check-input");
+      console.log(image);
+      console.log(checkbox.checked);
+      image.addEventListener('change', function(e){
+        alert("hello");
+      });
+    </script>
+  </body>
+</html>

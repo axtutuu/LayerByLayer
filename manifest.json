@@ -1,0 +1,18 @@
+{
+    "name": "PutImage",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "画像のlayerを追加する",
+    "permissions": ["storage"],
+    "browser_action": {
+        "default_popup": "index.html"
+    },
+    "content_scripts": [
+      {
+        "matches": [ "http://*/*", "https://*/*", "file://*" ],
+        "js": ["script.js"],
+        "run_at": "document_start"
+      }
+    ],
+    "options_page": "options.html"
+}
