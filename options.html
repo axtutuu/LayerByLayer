@@ -8,12 +8,15 @@
     <input class="js-image-input" type="file">
     <input id="js-check-input" class="js-check-input" type="checkbox">
     <label for="js-check-input">enable</label>
+    <button class="js-submit">update</button>
     <script src="./options.js" />
     <script>
       var image = doc.querySelector(".js-image-input");
       var checkbox = doc.querySelector(".js-check-input");
+      var submit = doc.querySelector(".js-submit");
       console.log(image);
       console.log(checkbox.checked);
+      console.log(submit);
       image.addEventListener('change', function(e){
         alert("hello");
       });

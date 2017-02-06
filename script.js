@@ -8,7 +8,7 @@
 
   var style = document.createElement('style');
   style.type = 'text/css';
-  style.innerHTML = '.product-name__mock { width: 100%; position: absolute; z-index: 100; top: 0; left: 0; opacity: 0.4, pointer-events: none;}';
+  style.innerHTML = '.product-name__mock { width: 100%; position: absolute; z-index: 100; top: 0; left: 0; opacity: 0.4; pointer-events: none;}';
   window.onload = function() {
     if(!enable) { return; }
     doc.querySelector('head').appendChild(style);
